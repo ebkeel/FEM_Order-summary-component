@@ -1,0 +1,128 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  margin: auto;
+  padding-bottom: 100px;
+  position: relative;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.background-img {
+  width: 100%;
+}
+
+.main-container {
+  background-color: white;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.36);
+  box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.36);
+  margin: auto;
+  position: relative;
+  width: 450px;
+}
+
+.top-img {
+  border-radius: 25px 25px 0 0;
+}
+
+.summary {
+  margin:auto;
+  width: 300px;
+}
+
+.plan {
+  background-color:hsl(225, 100%, 98%);
+  border-radius: 25px;
+  height: 100px;
+  margin: 20px auto;
+  position: relative;
+  width: 350px;
+}
+
+.music-img {
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+
+.plan-desc {
+  line-height: 1.5;
+  position: absolute;
+  left: 100px;
+  top: 20px;
+  text-align: left;
+}
+
+.change-link {
+  color: hsl(245, 75%, 52%);
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  text-decoration: underline;
+}
+
+.change-link:hover {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
+
+.btn {
+    background-color: hsl(245, 75%, 52%);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.36);
+   -moz-box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.36);
+   box-shadow: 0 13px 20px 0 rgba(0, 0, 0, 0.36);
+   color: #FFFFFF;
+   cursor: pointer;
+   display: inline-block;
+   font-family: Helvetica;
+   font-size: 16px;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   width: 350px;
+}
+
+.btn:hover {
+   background: hsl(224, 23%, 55%);
+   border: solid hsl(224, 23%, 55%) 1px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.option-container {
+  margin: 30px auto;
+}
+
+.cancel-container {
+  margin: 30px auto;
+}
+.cancel-link {
+  color: hsl(245, 75%, 52%);
+}
+
+.cancel-link:hover {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
